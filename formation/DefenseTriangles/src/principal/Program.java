@@ -8,6 +8,7 @@ public class Program {
 		System.out.println("taille figure ? ");
 		Scanner reader = new Scanner(System.in);
 		
+		
 		// saisie de la taille
 		int taille = Integer.parseInt(reader.nextLine());
 		for (int ligne = 0; ligne < taille; ligne++)
